@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-
     
     <div class="navbar">
         <div class="container">
             <a class="logo" href="index.html">Leonid<span>Jakob</span></a>
+            <!-- The logo "LeonidJakob" is href back to index / home page -->
 
             <img id="mobile-cta" class="mobile-menu" src="img/menu2.svg" alt="Open Navigation">
 
@@ -20,20 +20,22 @@
                 <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close Navigation">
 
                 <ul class="primary-nav">
+                    
+                    <li><a href="indexblog1.html">Blog</a></li>
+                    <li><a href="#">About me</a></li>
                     <li class="current"><a href="index.html"></a></li>
                     <!-- no home button on home page / index.html page  but on all other linked pages , also
                     "LeonidJakob" logo is linked back to index/ home page on every page including index
                 page as provides added ability to refresh home page by clicking on said logo -->
-                    <li><a href="indexblog1.html">Blog</a></li>
-                    <li><a href="aboutme.html">About me</a></li>
+
                                         
                  </ul>
 
 
                  <ul class="secondary-nav">
-                    <li><a href="contactme.html">Contact me</a></li>
-                    <li class="go-premium-cta"><a href="projectsunderway.html">Projects underway</a></li>
-                    <li><a href="https://google.com">Google search</a></li>
+                    <li><a href="resume.html">Curriculum Vitae</a></li>
+                    <li><a href="https://google.com" target="_blank" >Google search</a></li>
+                    <!-- Click on google button opens & redirects to additional / new google tab -->
                     
                                         
                  </ul>
@@ -46,20 +48,21 @@
 <section class="hero">
     <div class="container">
         <div class="left-col">
-            <p class="subhead">People don't realise how a man's whole life can be changed by one book <br>
-                - Malcolm X</p>
-            <h3>iphah mi'stabra - Learn by playing devil's advocate</h3>
+            <p class="subhead">IPHAH MI'STABRA | ADVOCATUS DIABLO | DEVIL'S ADVOCATE</p>
+
+            <h1>wake up, code, sleep, repeat</h1>
+            
+            
             <div class="hero-cta">
-                <!-- <a href="#" class="primary-cta">Try for Free</a> -->
+                
                 <a href="#" class="watch-video-cta">
-                    <img src="img/watch.svg" alt="watch a video">Watch my Video
+                    <img src="img/watch.svg" alt="watch a video">Watch my video by clicking below
                     <video src="video/V1.mov" autoplay controls></video>
                 </a>
 
-
             
             </div>
-            <!-- <img src="img/illustration.svg" class="hero-img" alt="Illustration"> -->
+            
 
         </div>
 
@@ -70,18 +73,20 @@
 
     <ul class="features-list">
 
-           
+        <h2> About me / My Skill Set</h2>    
+         <br>
+
         <li>Skills - Fundamental & Technical Financial Analysis </li>
         <li>Skills - Legal Knowledge & Application</li>
         <li>Skills - Coding / Full Stack Developer</li>
         <li>Skills - Cyber Security</li>
+        <br>
+        <li> CAS012124@codercademy.edu.au ; twitter ; LMJ @LMJ53419356</li>
         
     
     </ul>
     <br>
     
-
-    <!-- <img src="img/Coding.jpg" alt="myskyline"> -->
 
 </div>
 </section>
@@ -125,13 +130,14 @@
                <input type="Email" id="Email" name="Email" placeholder="Your email">
               <br>
              <br>
-                 <label for="Your Mobile">Your mobile / cell inc. the Country Code</label><br>
+                 <label for="Your Mobile">Your mobile including Country Code</label><br>
                  <input type="Your mobile" id="Your mobile" name="Your Mobile" placeholder="eg + 6 1 4 for Australia">
              <br>
               <br>
              <label for="Message">Message</label>
               <br>
-                 <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Please leave a message"></textarea>
+                 <textarea name="Message" id="Message" cols="50" rows="10" 
+                 placeholder="Please leave a message"></textarea>
     
              <br>
                   <br>
