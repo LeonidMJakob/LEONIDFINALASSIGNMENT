@@ -1,0 +1,23 @@
+commit 3e7a4036310cfadf6c60800bb5152cdacf5edc07
+Author: Leonid Meshail Jakob <CAS012124@coderacademy.edu.au>
+Date:   Tue Apr 27 09:01:58 2021 +1000
+
+    added cv page
+
+commit ee32be85fd7cdc25b1b7320e108b7fbeca804904
+Author: Leonid Meshail Jakob <CAS012124@coderacademy.edu.au>
+Date:   Tue Apr 27 04:21:02 2021 +1000
+
+    first commit
+
+commit 1f945dd53c3622456abfb4d05d6e34faa5e97c58
+Author: Leonid Meshail Jakob <CAS012124@coderacademy.edu.au>
+Date:   Wed Apr 21 22:39:27 2021 +1000
+
+    initiate repository
+
+commit fbd9064be313282dcb14061bc7c838b722ef1551
+Author: Leonid Meshail Jakob <CAS012124@coderacademy.edu.au>
+Date:   Mon Apr 19 14:40:13 2021 +1000
+
+    Initial Commit
