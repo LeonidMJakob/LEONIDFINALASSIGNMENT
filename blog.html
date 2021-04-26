@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    
+    
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Leonid<span>Jakob - Blog</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="img/menu2.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close Navigation">
+
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                                        
+                 </ul>
+
+
+                 <ul class="secondary-nav">
+                    <li><a href="contactme.html">Contact me</a></li>
+                    <li class="go-premium-cta"><a href="projectsunderway.html">Projects underway</a></li>
+                    <li><a href="https://google.com">Google search</a></li>
+                    
+                                        
+                 </ul>
+
+            </nav>
+             
+        </div>
+    </div>
+
+<section class="hero">
+    <div class="container">
+        <div class="left-col">
+            <p class="subhead">People don't realise how a man's whole life can be changed by one book <br>
+                - Malcolm X</p>
+            <h1>iphah mi'stabra</h1>
+            <div class="hero-cta">
+                <!-- <a href="#" class="primary-cta">Try for Free</a> -->
+                <a href="#" class="watch-video-cta">
+                    <img src="img/watch.svg" alt="watch a video">Watch a Video
+                </a>
+
+
+            
+            </div>
+            <!-- <img src="img/illustration.svg" class="hero-img" alt="Illustration"> -->
+
+        </div>
+
+</section>
+
+<section class="features-section">
+<div class="container">
+
+    <ul class="features-list">
+    
+        <li>Skills / Language</li>
+        <li>Skills / Language</li>
+        <li>Skills / Language</li>
+        <li>Skills / Language</li>
+        <li>Skills / Language</li>
+        <li>Skills / Language</li>
+    
+    </ul>
+    <br>
+    
+
+    <img src="img/holding-phone.jpg" alt="man holding holding-phone">
+
+</div>
+</section>
+
+<section class="testimonials-section">
+    <div class="container">
+
+       <ul>
+        <li>
+        <img src="img/person.jpg" alt="Person">
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac odio quis velit hendrerit tempor. In in ante vel nunc volutpat lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget metus et ligula varius suscipit. Nam vitae nisi tempor urna mattis accumsan at nec .</blockquote>
+        <cite>- Jane Done</cite>
+        </li>
+        
+        <li>
+            <img src="img/person.jpg" alt="Person">
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac odio quis velit hendrerit tempor. In in ante vel nunc volutpat lacinia. Class aptent taciti .</blockquote>
+            <cite>- Jane Done</cite>
+            </li>
+
+        
+        <li>
+                <img src="img/person.jpg" alt="Person">
+                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac odio quis velit hendrerit tempor. In in ante vel nunc volutpat lacinia. Class aptent taciti sociosqu ad litora .</blockquote>
+                <cite>- Jane Done</cite>
+                </li>
+                </ul>
+        </div>
+    </section>
+
+<section class="contact-section">
+    <div class="container">
+         <div class="contact-left">
+
+          <h2>Contact</h2>
+
+         <form action="">
+            <label for="Name">Name</label>
+             <input type="text" id="Name" name="Name" placeholder="First Name - Surname">
+           <br>
+           <br>
+              <label for="Email">Email</label>
+               <input type="Email" id="Email" name="Email" placeholder="Your email">
+              <br>
+             <br>
+                 <label for="Your Mobile">Your mobile / cell inc. the Country Code</label><br>
+                 <input type="Your mobile" id="Your mobile" name="Your Mobile" placeholder="eg + 6 1 4 for Australia">
+             <br>
+              <br>
+             <label for="Message">Message</label>
+              <br>
+                 <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Please leave a message"></textarea>
+    
+             <br>
+                  <br>
+
+             <input type="submit" class="send-message-cta" value="Send Message">
+         </form>
+        </div>
+
+
+
+        <div class="container-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.52758434644!2d151.19426051660258!3d-33.88015308761364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae1812323dc1%3A0x5ef7323178d4ab08!2sCoder%20Academy!5e0!3m2!1sen!2sau!4v1618641526647!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- javascript now -->
+
+<script>
+
+    const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+    
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.add('menu-btn');
+
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('menu-btn');
+
+    })
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

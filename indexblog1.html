@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css2/main1.css">
+
+</head>
+<body> 
+
+    <h1>Leonid's blog</h1>
+
+    
+    
+    <img src="images/abstract.jpg" alt="abstact background">
+
+    <div class="circle"></div>
+
+    <div class="container" id="glass">
+            <h2 class="seq">Blog 1</h2>
+            <p class="seq">Another day another 50 cents</p>
+
+           
+    </div>
+
+    <div class="container" id="glass">
+        <h2 class="seq">Blog 2</h2>
+        <p class="seq">Democratic States of Massacre</p>
+       
+</div>
+
+<div class="container" id="glass">
+    <h2 class="seq">Blog 3</h2>
+    
+    <p class="seq">Red Faced Guards</p>
+
+   
+</div>
+
+
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+    <script>
+        const glass = document.getElementById('glass')
+
+    const t1 = gsap.timeline({defaults: {ease: "power2.inOut", duration: 1.5}})
+
+        t1.from('img', { x: '-10%', opacity: 0})
+          .from('.container', {opacity: 0, delay: .5, duration: 1}, "-=1.5")
+          .from('container', {x: '-20%', backdropfilter: 'blur(0px)'})
+          .from('.seq', { y: -30, opacity: 0, stagger: .3, duration: .5}, "-=.5")  
+          .from('h1', { y: 20, clipPath: 'inset(0 0 100% 0)'}, "-=.8")
+
+
+
+    </script>
+
+
+
+</body>
+</html>
